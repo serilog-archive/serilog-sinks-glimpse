@@ -80,7 +80,7 @@ namespace Serilog.Sinks.Glimpse
             switch (level)
             {
                 case LogEventLevel.Debug:
-                    row.Sub();
+                    row.Quiet();
                     break;
                 case LogEventLevel.Warning:
                     row.Warn();
