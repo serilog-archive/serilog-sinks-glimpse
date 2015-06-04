@@ -79,8 +79,14 @@ namespace Serilog.Sinks.Glimpse
         {
             switch (level)
             {
-                case LogEventLevel.Debug:
+                case LogEventLevel.Verbose:
                     row.Quiet();
+                    break;
+                /*case LogEventLevel.Debug:
+                    // Default style, black text
+                    break;*/
+                case LogEventLevel.Information:
+                    row.Info();
                     break;
                 case LogEventLevel.Warning:
                     row.Warn();
