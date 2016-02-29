@@ -1,0 +1,18 @@
+﻿{
+  "version": "2.0.0-beta1",
+  "description": "Serilog event sink that writes to a Glimpse tab.",
+  "authors": [ "Robert Wagner, Serilog Contributors, Darrell Tunnell" ],
+  "tags": [ "serilog", "logging", "glimpse" ],
+  "projectUrl": "http://serilog.net",
+  "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
+  "iconUrl": "http://serilog.net/images/serilog-sink-nuget.png",
+  "requireLicenseAcceptance": true,
+  "dependencies": {
+    "Serilog": "2.0.0-beta-403",
+    "Glimpse": "2.0.0-beta1"
+  },
+  "frameworks": {
+    "net45": { },
+    "net46": { }
+  }
+}
