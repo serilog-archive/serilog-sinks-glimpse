@@ -1,5 +1,5 @@
 ﻿{
-  "version": "2.0.0-beta1",
+  "version": "2.0.0-beta3",
   "description": "Serilog event sink that writes to a Glimpse tab.",
   "authors": [ "Robert Wagner, Serilog Contributors, Darrell Tunnell" ],
   "tags": [ "serilog", "logging", "glimpse" ],
@@ -13,6 +13,7 @@
   },
   "frameworks": {
     "net45": { },
+    "net451": { },
     "net46": { }
   }
 }
