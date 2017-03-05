@@ -69,7 +69,7 @@ namespace Serilog.Sinks.Glimpse
                 row.Column(item.LogEvent.RenderMessage(item.FormatProvider)).Strong();
                 row.Column(properties);
 
-                ApplyRowLevelStyle(item.LogEvent.Level, row);
+                //ApplyRowLevelStyle(item.LogEvent.Level, row);
             }
 
             return plugin;
